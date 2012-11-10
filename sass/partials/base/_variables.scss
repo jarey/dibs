@@ -17,3 +17,7 @@ $small-font-size:   12px;
 // Set up the color palette
 $high-contrast-color: #0678BE;
 $low-contrast-color: mix(white, $high-contrast-color, 20%);
+
+// Set up the grid
+$columns: ratio(golden-ratio(), 2, 'large');
+$gutter: 0.1;
