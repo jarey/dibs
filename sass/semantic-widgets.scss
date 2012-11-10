@@ -24,3 +24,10 @@
 // Import Design
 ////////////////////////
 @import 'partials/widgets';
+
+#block-menu-menu-social-menu .menu {
+  @extend %social-menu;
+  a {
+    @extend %social-link;
+  }
+}

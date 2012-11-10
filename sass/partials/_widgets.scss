@@ -5,3 +5,15 @@
 // Use placeholders and inheritance at will.
 // See SMACSS.com and OOCSS.org
 ////////////////////////
+
+%social-menu {
+  @include no-bullets;
+}
+
+%social-link {
+  @include sassy-button;
+  width: 80%;
+  min-width: 120px;
+  text-align: center;
+  margin: 0 auto;
+}
