@@ -21,3 +21,4 @@ $low-contrast-color: mix(white, $high-contrast-color, 20%);
 // Set up the grid
 $columns: ratio(golden-ratio(), 2, 'large');
 $gutter: 0.1;
+$padding: 1em;
