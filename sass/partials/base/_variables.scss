@@ -7,3 +7,13 @@
 // Set up the vertical rhythm.
 $base-font-size: 16px;
 $base-line-height: 22px;
+
+// Set up the font scale
+$biggest-font-size: 42px;
+$bigger-font-size:  28px;
+$big-font-size:     22px;
+$small-font-size:   12px;
+
+// Set up the color palette
+$high-contrast-color: #0678BE;
+$low-contrast-color: mix(white, $high-contrast-color, 20%);

@@ -5,5 +5,31 @@
 // Be wise, reuse.
 ////////////////////////
 
+// Use normalize.css
+@import "normalize";
+
 // Set the font-size.
 @include base-font-sizing;
+
+/* Headings */
+h1 {
+  @include adjust-font-size-to(42px);
+  color: $high-contrast-color;
+}
+h2 {
+  @include adjust-font-size-to(28px);
+  color: $high-contrast-color;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: $high-contrast-color;
+  &:hover {
+    text-decoration: underline;
+    color: $low-contrast-color;
+  }
+  &:visited {
+    color: $high-contrast-color;
+  }
+}
