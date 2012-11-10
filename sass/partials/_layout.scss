@@ -10,13 +10,15 @@
   margin: 0 auto;
 }
 
-#main {
-  @include container;
-  @include background-grid;
-}
-#content {
-  @include grid-span(1,1);
-}
-#sidebar-first {
-  @include grid-span(1,2);
+@include respond-to('tablet and up') {
+  #main {
+    @include container;
+    @include background-grid;
+  }
+  #content {
+    @include grid-span(1,1);
+  }
+  #sidebar-first {
+    @include grid-span(1,2);
+  }
 }
